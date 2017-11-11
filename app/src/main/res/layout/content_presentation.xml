@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_gray_300"
+    tools:showIn="@layout/activity_stage">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:id="@+id/textTitlePresentation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/material_gray_050"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="@string/presentation"/>
+
+            <TableLayout
+                android:id="@+id/tableButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:layout_alignParentBottom="true">
+
+                <TableRow>
+                    <Button
+                        style="@style/ButtonAppearance.Question"
+                        android:layout_height="40dp"
+                        android:id="@+id/buttonQuestion1"
+                        android:text="@string/card_question_one"/>
+                    <Button
+                        style="@style/ButtonAppearance.Question"
+                        android:layout_height="40dp"
+                        android:id="@+id/buttonQuestion2"
+                        android:text="@string/card_question_two"/>
+                </TableRow>
+
+                <Button
+                    style="@style/ButtonAppearance.Question"
+                    android:id="@+id/buttonResume"
+                    android:layout_height="40dp"
+                    android:text="@string/resume"
+                    android:visibility="gone"/>
+            </TableLayout>
+
+            <View
+                android:id="@+id/separator1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/material_gray_300"
+                android:layout_above="@id/tableButtons"/>
+
+            <WebView
+                android:id="@+id/webPresentation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textTitlePresentation"
+                android:layout_above="@id/separator1"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

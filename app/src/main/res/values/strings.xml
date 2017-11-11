@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PerguntASC</string>
+    <string name="facebook_app_id">1140011319379087</string>
+
+    <string name="login_with_facebook">Login com Facebook</string>
+    <string name="question">Questão</string>
+    <string name="presentation">Apresentação</string>
+    <string name="resume">Análise, resumo e referências</string>
+    <string name="sign_out">Sair</string>
+    <string name="points">Pontos:  %d</string>
+
+    <!-- Descrições -->
+    <string name="logo_app">Logotipo do Aplicativo.</string>
+    <string name="logo_medicine_usp">Faculdade de Medicina USP.</string>
+    <string name="logo_medicine_social">Medicina Social.</string>
+    <string name="logo_profile">Perfil do jogador.</string>
+
+    <string name="card_question_one">Pergunta 1</string>
+    <string name="card_question_two">Pergunta 2</string>
+
+    <string name="message_you_missed">Que pena, você errou!</string>
+    <string name="message_time_out">Tempo esgotado!</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+        scelerisque est sed egestas tincidunt. Vivamus risus arcu, pretium eu iaculis a, tristique faucibus metus. Etiam tempor erat in erat pretium, sit amet tincidunt magna congue. Phasellus et varius nisl. Morbi accumsan augue at sem eleifend tincidunt. Duis quis velit bibendum, faucibus neque vel, pharetra elit. Donec aliquet eros quis mi blandit, et blandit odio posuere. Vestibulum ipsum nibh, facilisis eu lorem vel, maximus congue tortor. Pellentesque eu enim sed odio vulputate finibus. Morbi fringilla sagittis cursus. Pellentesque id mauris lacinia, porta diam cursus, tincidunt erat. Ut sed tristique felis, a vulputate lacus.</string>
+</resources>
